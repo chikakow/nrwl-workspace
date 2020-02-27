@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-interface Todo {
-  title: string;
-}
+import { Todo } from '@nrwl-workspace/data';
 
 @Component({
   selector: 'nrwl-workspace-root',

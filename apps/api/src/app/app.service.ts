@@ -1,8 +1,6 @@
 import { Injectable } from '@nestjs/common';
+import { Todo } from '@nrwl-workspace/data';
 
-interface Todo {
-  title: string;
-}
 
 @Injectable()
 export class AppService {

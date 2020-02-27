@@ -18,7 +18,13 @@
       "tags": [],
       "implicitDependencies": ["todos"]
     },
-    ".-api": {
+    "api": {
+      "tags": []
+    },
+    "data": {
+      "tags": []
+    },
+    "ui": {
       "tags": []
     }
   }
